@@ -24,6 +24,10 @@ body {
     letter-spacing: 0.03em;
 }
 
+img {
+    max-width: 100%;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -72,10 +76,13 @@ p {
 
 /* header */
 
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .header-item {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
 }
 
 .logo {
@@ -92,12 +99,11 @@ p {
 }
 
 .nav {
-
+    margin-left: 95px;
 }
 
 .nav-list {
     display: flex;
-    margin-left: 95px;
 }
 
 .nav-list-item + .nav-list-item {
@@ -138,6 +144,10 @@ p {
 }
 
 .contact-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -198,12 +208,18 @@ p {
 /* hero  */
 
 .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
     background-color: var(--secondary-bcg-color);
     text-align: center;
 }
 
 .hero-title {
+    max-width: 696px;
+    margin-right: auto;
     margin-bottom: 30px;
+    margin-left: auto;
 
     color: var(--primary-white-color);
     font-weight: 900;
@@ -283,7 +299,7 @@ p {
 /* work */
 
 .work {
-    padding-top: 0;
+    
 }
 
 .work-title {
@@ -317,7 +333,6 @@ p {
 }
 
 .team-card {
-    padding-bottom: 30px;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
 
@@ -325,7 +340,12 @@ p {
 }
 
 .team-member-photo {
-    margin-bottom: 30px;
+ 
+}
+
+.team-member {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-member-name {
@@ -351,6 +371,7 @@ p {
 .buttons-list {
     display: flex;
     justify-content: center;
+    margin-bottom: 34px;
 }
 
 .buttons-list-item + .buttons-list-item {
@@ -358,7 +379,7 @@ p {
 }
 
 .buttons-list-item {
-    margin-bottom: 34px;
+
 }
 
 .button {
