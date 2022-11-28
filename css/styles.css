@@ -412,7 +412,7 @@ p {
 }
 
 .projects-list-item {
-    flex-basis: calc(100% / 3 - 60px);
+    flex-basis: calc((100% - 60px) / 3);
 }
 
 .projects-list-item:not(:nth-child(3n)) {
