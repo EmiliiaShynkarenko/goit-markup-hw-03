@@ -26,6 +26,7 @@ body {
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 ul {
@@ -169,9 +170,11 @@ p {
     color: var(--primary-white-color);
 }
 
-.address-list {
+.address {
     margin-top: 20px;
+}
 
+.address-list {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -299,7 +302,7 @@ p {
 /* work */
 
 .work {
-    
+    padding-top: 0;
 }
 
 .work-title {
@@ -371,7 +374,7 @@ p {
 .buttons-list {
     display: flex;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 .buttons-list-item + .buttons-list-item {
